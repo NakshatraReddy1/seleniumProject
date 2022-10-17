@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="GroupsDemo.xml">
+  <groups>
+  <run>
+  <include name="Sanity Test"></include>
+  <include name="Regression Test"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="pack.Groups"/>
+    </classes>
+  </test> <!-- GroupsDemo.xml -->
+  <test name="method5">
+  <classes>
+  <class name="pack.Groups">
+  <methods>
+  <include name="method5"></include>
+  </methods>
+  </class>
+  
+  </classes>
+  </test>
+</suite> <!-- Suite -->
