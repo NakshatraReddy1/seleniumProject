@@ -8,6 +8,7 @@ public class Groups {
 	public void method1()
 	
 	{
+		System.out.println("Sanity test demo ");	
 	System.out.println("Sanity test 1");	
 	
 	
