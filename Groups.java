@@ -12,6 +12,8 @@ public class Groups {
 	
 	System.out.println("Sanity test 2");
 	System.out.println("Sanity test 2");
+	System.out.println("Sanity test 3");
+	System.out.println("Sanity test 3");
 	}
 	@Test(groups = {"Sanity Test"})
 	public void method2()
