@@ -9,6 +9,7 @@ public class SoftasertionDemo {
 	
   @Test(priority = 0)
   public void softassert() {
+	System.out.println("sample semo for assertions");
 	  SoftAssert obj=new SoftAssert();
 	  System.out.println("======================================");
 		System.out.println("Test1 start");
