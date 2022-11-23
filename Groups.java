@@ -10,6 +10,7 @@ public class Groups {
 	{
 	System.out.println("Sanity test 1");	
 	System.out.println("Sanity test 1");	
+	System.out.println("Sanity test 1");	
 	}
 	@Test(groups = {"Sanity Test"})
 	public void method2()
